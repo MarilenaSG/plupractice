@@ -7,34 +7,23 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<html>
+  <main>
 
-<head></head>
-
-<body>
-
-  <div id="titulo"><h1>Practica los PLU de Aldi</h1></div>
+  <div class="titulo"><h1>Practica PLU</h1></div>
+  <section>
   <p> Adivina el PLU de:</p><p id="produ"></p>
-  <div id"form">
+  <form>
   
     <input id="plu_input"  type="int" placeholder="Introduce PLU" />
     <input id="send_plu" class="boton" type="button" value="Enviar" onclick="adivinaPlu()" />
     
-    
-
- 
-  </div>
+  </form>
   
   <p id="answer_box"></p>
-    
-  </p>
   
-  <input id="siguiente" class="boton" type="button" value="Siguiente PLU" onclick="location.reload"/>
-</body>
-
-</html>
-<!-- partial -->
+  <input id="siguiente" class="boton" type="button" value="Siguiente PLU" onclick="ask"/>
+</section>
+</main>
   <script  src="./script.js"></script>
 
 </body>
