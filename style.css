@@ -34,16 +34,16 @@ main {
 }
 
 main h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   text-align: center;
-  margin: 60px auto;
+  margin: 40px auto;
   color: var(--grayish-blue);
   font-weight: bold;
 
 }
 
 main p {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   text-align: center;
   color: var(--blackish-blue);
 
@@ -67,19 +67,19 @@ form {
 
 #plu_input {
   width: 70vw;
-  height: 180px;
+  height: 120px;
   background-color: var(--white);
   font-size: 4.8rem;
   text-align: center;
   border-radius: 20px;
   border-style: none;
   box-shadow: 1px 1px 2px grey;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 #send_plu {
   width: 100%;
-  height: 180px;
+  height: 120px;
   margin: 20px auto;
   font-size: 2.8rem;
   background-color: var(--violet);
@@ -90,7 +90,7 @@ form {
 
 .answer {
   width: 70vw;
-  height: 180px;
+  height: 120px;
   border-radius: 20px;
   background-color: var(--white);
   margin: 20px auto;
@@ -99,7 +99,7 @@ form {
 }
 
 .answer p {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .boton-sig {
@@ -110,7 +110,7 @@ form {
 
 button {
   width: 70vw;
-  height: 180px;
+  height: 120px;
   margin: 20px auto;
   font-size: 2.8rem;
   background-color: var(--violet);
@@ -133,6 +133,6 @@ button {
     font-size: 1.8 rem;
   }
 
-  
+
   
 }
