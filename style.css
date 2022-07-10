@@ -1,0 +1,118 @@
+:root {
+  --violet: hsl(263, 55%, 52%);
+  --grayish-blue: hsl(217, 19%, 35%);
+  --blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --lightgray: hsl(0, 0%, 81%);
+  --light-grayblue: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--grayish-blue);
+  font-family: Helvetica, sans-serif;
+  font-size: 62.5%;
+ 
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: center;
+  width: 80%;
+  height: 90vh;
+  background-color: var(--light-grayblue);
+  margin: 30px auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 9px black;
+  padding: 5%;
+}
+
+main h1 {
+  font-size: 6rem;
+  text-align: center;
+  margin: 60px auto;
+  color: var(--grayish-blue);
+  font-weight: bold;
+
+}
+
+main p {
+  font-size: 2.8rem;
+  text-align: center;
+  color: var(--blackish-blue);
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#produ {
+  color: var(--violet);
+  font-size: 3.8rem;
+  font-weight: bolder;
+  margin: 40px auto;
+}
+
+
+#plu_input {
+  width: 70vw;
+  height: 180px;
+  background-color: var(--white);
+  font-size: 1.8rem;
+  text-align: center;
+  border-radius: 20px;
+  border-style: none;
+  box-shadow: 1px 1px 2px grey;
+  margin: 50px auto;
+}
+
+#send_plu {
+  width: 100%;
+  height: 180px;
+  margin: 20px auto;
+  font-size: 2.8rem;
+  background-color: var(--violet);
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.answer {
+  width: 70vw;
+  height: 180px;
+  border-radius: 20px;
+  background-color: var(--white);
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px gray;
+}
+
+.boton-sig {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+button {
+  width: 70vw;
+  height: 180px;
+  margin: 20px auto;
+  font-size: 2.8rem;
+  background-color: var(--violet);
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  
+}
+
