@@ -50,7 +50,6 @@ var pluData = [
 (zan_1kg= ["Zanahorias 1Kg", 32]),
 (zan_man= ["Zanahoria Manojo", 137]),
 (zan_eco= ["Zanahoria ECO", 918]),
-(lim_ban= ["Lima Bandeja", 540]),
 (lim_gra= ["Limón Granel", 176]),
 (lim_mal= ["Limón Malla", 954]),
 (man_gra= ["Mandarina Granel", 123]),
@@ -148,6 +147,7 @@ var input = document.getElementById("plu_input");
 
 //el botón que llama la funcion adivinaPlu
 document.addEventListener("send_plu", "adivinaPlu").onclick;
+
 
 
 
