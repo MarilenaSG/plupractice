@@ -88,14 +88,14 @@ var pluData = [
 (pin_can= ["Piña Canaria", 589]),
 (pin_md2= ["Piña MD2", 973]),
 (nar_can= ["Naranja Canaria", 563]),
-(baguetina= ["Baguetina", 933]);
-(baguette= ["Baguette",	840]);
-(campesina= ["Barra Campesina",	390]);
+(baguetina= ["Baguetina", 933]),
+(baguette= ["Baguette",	840]),
+(campesina= ["Barra Campesina",	390]),
 (barra= ["Barra de Pan",	400]),
 (barra_cereales= ["Barra de Pan con cereales",	371]),
 (gourmet= ["Barra Gourmet Aceite de Oliva",	800]),
-(rustica= ["Barra Rústica Integral",	807]),
-(rustica_integral= ["Barra Rústica Integral"])	,
+(rustica= ["Barra Rústica",	200]),
+(rustica_integral= ["Barra Rústica Integral", 807])	,
 (berlina= ["Berlina rellena de Cacao",	331]),
 (bretzel= ["Bretzel",	947]),
 (caraola= ["Caracola de Pasas",	231]),
@@ -126,7 +126,7 @@ var pluData = [
 (panecillo_matalahuva= ["Panecillo Matalahúva",	837]),
 (panecillo_multi= ["Panecillo Multicereales",	869]),
 (panecillo_viena= ["Panecillo Redondo Viena",	228]),
-(trenza= ["Trenza Maple Pecan",	838]),
+(trenza= ["Trenza Maple Pecan",	838])
 
 
 
